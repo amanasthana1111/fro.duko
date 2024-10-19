@@ -4,7 +4,6 @@ import './ComingSoon.css'; // Assuming your CSS file is named ComingSoon.css
 const ComingSoon: React.FC = () => {
   return (
     <div className="coming-soon-container">
-      <div className="svg-container">
         <svg viewBox="0 0 100 100">
           <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
             
@@ -70,8 +69,8 @@ const ComingSoon: React.FC = () => {
               repeatCount="indefinite" />
           </g>
         </svg>
-      </div>
-      <h1 className="coming-soon-text">Coming Soon</h1>
+      
+        <div className="coming-soon-text">Coming Soon</div>
     </div>
   );
 };

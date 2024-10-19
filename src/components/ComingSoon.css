@@ -1,28 +1,30 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
 }
-html , body{
-	height: 100%;
-	width: 100%;
-}
-
 
 body {
     background: #000;
-    display: flex;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height of viewport */
+    display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 100vh; /* Set height to full viewport height */
-    margin: 0; /* Remove default margin */
+}
+
+.container {
+    text-align: center; /* Center text inside the container */
 }
 
 svg {
-    height: 150px;
-    width: 150px;
+    height: 150px; /* Set height for your SVG */
+    width: 150px; /* Set width for your SVG */
+    display: block; /* Ensure SVG behaves as a block element */
+    margin: 0 auto; /* Center SVG horizontally */
 }
 
 .coming-soon-text {
-    color: rgb(174, 159, 159);
+    color: rgb(174, 159, 159); /* Text color */
+    font-size: 24px; /* Adjust font size */
+    margin-top: 10px; /* Space above the text */
+	margin-left: 9px;
 }
